@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: cornsilk;
+}
+.carousel-item img{
+    width: 100%;
+}
+.main_heading{
+    font-family: 'Open Sans', sans-serif;
+}
+.about_img{
+    height: 300px;
+}
+.offer{
+    background-color: #3923b2;
+}
+.offerbtn{
+    
+}
+footer{
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+/*responsive css code*/
+
+/*
+ X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
+
+
